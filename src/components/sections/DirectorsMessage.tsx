@@ -8,7 +8,7 @@ export default function DirectorsMessage() {
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-white">Director's Message</h2>
           <div className="mt-4 flex justify-center">
-            <div className="w-24 h-1 bg-[#FF4B4B] rounded-full"></div>
+            <div className="w-24 h-1 bg-[#4bffcf] rounded-full"></div>
           </div>
         </div>
 
@@ -21,17 +21,17 @@ export default function DirectorsMessage() {
             />
           </div>
           <Card className="lg:col-span-2 bg-white/5 backdrop-blur-lg border border-white/10 relative">
-            <Quote className="absolute top-4 left-4 h-8 w-8 text-[#FF4B4B] opacity-50" />
+            <Quote className="absolute top-4 left-4 h-8 w-8 text-[#4bffcf] opacity-50" />
             <div className="pl-12 pt-4">
               <p className="text-gray-300 mb-6 text-lg leading-relaxed">
-                Welcome to IIT Madras' BSc in Data Science program. In today's digital age, data science has become the cornerstone of innovation and decision-making across industries. Our program is designed to equip students with cutting-edge skills while maintaining the academic rigor IIT Madras is known for.
+                Welcome to IIT Madras' Diploma in Data Science & Programming. In today's digital age, data science has become the cornerstone of innovation and decision-making across industries. Our program is designed to equip students with cutting-edge skills while maintaining the academic rigor IIT Madras is known for.
               </p>
               <p className="text-gray-300 mb-6 text-lg leading-relaxed">
-                Through this online degree program, we're democratizing access to quality education, enabling students from across India to benefit from IIT Madras' excellence in teaching and research.
+                Through this online degree/diploma program, we're democratizing access to quality education, enabling students from across India to benefit from IIT Madras' excellence in teaching and research.
               </p>
               <div className="mt-8">
                 <h3 className="text-white font-semibold text-xl">Prof. V. Kamakoti</h3>
-                <p className="text-[#FF4B4B]">Director, IIT Madras</p>
+                <p className="text-[#4bffcf]">Director, IIT Madras</p>
               </div>
             </div>
           </Card>

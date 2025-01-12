@@ -4,58 +4,38 @@ import Card from '../ui/Card';
 import { Calendar, GraduationCap, Trophy, BookOpen } from 'lucide-react';
 
 const eligibilityCriteria = [
-  'The IIT Madras Degree Program in Data Science and Applications has four levels.',
-  'To earn the BS Degree, a learner must successfully complete all four levels.',
+  'The IIT Madras Diploma Program in Data Science and Programming has two levels.',
+  'To earn the Diploma, a learner must successfully complete all courses.',
   'The program offers flexibility to exit at any level.',
-  'Based on courses completed and credits earned, learners can receive: Foundation Certificate, Diploma(s), BSc Degree and BS Degree.',
+  'Based on courses completed and credits earned, learners can receive Diploma(s)',
 ];
 
 const entranceExamSyllabus = [
+  
   {
-    subject: 'Foundational Level',
-    requirement: 'The learner should apply for and clear the Qualifier Process.',
+    subject: 'Diploma in Programming',
+    
     topics: [
-      'Courses: 8',
-      'Credits: 32',
-      'Fees: ₹32,000',
-      'Time: 1-3 years',
-
-    ]
-  },
-  {
-    subject: 'Diploma Level',
-    requirement: 'The learner should have cleared all 8 Foundation Level courses.',
-    topics: [
-      'Courses: 12 and Project: 4',
+      'Courses: 8 + Project: 2',
       'Credits: 54',
-      'Fees: ₹1,25,000',
+      'Fees: ₹64,000-70,000',
       'Time: 1-3 years',
       
     ]
   },
   
   {
-    subject: 'BSc Level',
-    requirement: 'The learner should have cleared all Diploma Level Courses.',
+    subject: 'Diploma in Data Science',
+    
     topics: [
-      'Courses: -',
+      'Courses: Courses: 8 + Project: 2',
       'Credits: 28',
       'Fees: ₹64,000-70,000',
       'Time: 1-3 years',
       
     ]
   },
-  {
-    subject: 'BS Level',
-    requirement: 'The learner should have completed the BSc Degree Level.',
-    topics: [
-      'Courses: -',
-      'Credits: 28',
-      'Fees: ₹94,000-1,24,000',
-      'Time: 1-3 years',
-      
-    ]
-  }
+  
 ];
 
 const scholarships = [
@@ -77,26 +57,16 @@ const scholarships = [
 ];
 
 const importantDates = [
+  
   {
-    event: 'Foundation Only (32 Credits)',
-    date: '₹32,000'
+    event: 'Diploma in Programming',
+    date: '₹70,000'
   },
   {
-    event: 'Foundation + One Diploma (59 Credits)',
-    date: '₹94,500'
+    event: 'Diploma in Data Science',
+    date: '₹70,000'
   },
-  {
-    event: 'Foundation + Two Diploma (86 Credits)',
-    date: '₹1,57,000'
-  },
-  {
-    event: 'BSc Degree (114 Credits)',
-    date: '₹2,21,000'
-  },
-  {
-    event: 'BS Degree (142 Credits)',
-    date: '₹3,15,000'
-  }
+  
 ];
 
 
@@ -112,14 +82,14 @@ export default function AdmissionPage() {
         {/* Eligibility Criteria */}
         <section className="mt-16">
           <div className="flex items-center gap-2 mb-6">
-            <GraduationCap className="h-6 w-6 text-[#FF4B4B]" />
+            <GraduationCap className="h-6 w-6 text-[#4bffe1]" />
             <h2 className="text-2xl font-bold text-white">Overall Structure</h2>
           </div>
           <Card className="bg-white/5 backdrop-blur-lg border border-white/10">
             <ul className="space-y-3">
               {eligibilityCriteria.map((criteria, index) => (
                 <li key={index} className="flex items-center gap-2 text-gray-300">
-                  <div className="h-1.5 w-1.5 rounded-full bg-[#FF4B4B]" />
+                  <div className="h-1.5 w-1.5 rounded-full bg-[#4bffe1]" />
                   {criteria}
                 </li>
               ))}
@@ -134,7 +104,7 @@ export default function AdmissionPage() {
             {entranceExamSyllabus.map((subject, index) => (
               <Card key={index} className="bg-white/5 backdrop-blur-lg border border-white/10">
                 <h3 className="text-xl font-semibold text-white mb-4">{subject.subject}</h3>
-                <p className="text-red-500 mb-4">Requirement: <span className="text-gray-300 text-sm mb-4">{subject.requirement}</span></p>
+                
                 <ul className="space-y-2">
                   {subject.topics.map((topic, topicIndex) => (
                     <li key={topicIndex} className="text-gray-300 text-sm">
@@ -158,7 +128,7 @@ export default function AdmissionPage() {
             {scholarships.map((scholarship, index) => (
               <Card key={index} className="bg-white/5 backdrop-blur-lg border border-white/10">
                 <h3 className="text-xl font-semibold text-white mb-2">{scholarship.title}</h3>
-                <p className="text-[#FF4B4B] font-semibold mb-2">{scholarship.amount}</p>
+                <p className="text-[#4bffe1] font-semibold mb-2">{scholarship.amount}</p>
                 <p className="text-gray-300 text-sm">{scholarship.criteria}</p>
               </Card>
             ))}
@@ -220,7 +190,7 @@ export default function AdmissionPage() {
               {importantDates.map((item, index) => (
                 <div key={index} className="flex justify-between items-center py-2 border-b border-white/10 last:border-0">
                   <span className="text-gray-300">{item.event}</span>
-                  <span className="text-[#FF4B4B] font-semibold">{item.date}</span>
+                  <span className="text-[#4bffe1] font-semibold">{item.date}</span>
                 </div>
               ))}
             </div>
@@ -230,7 +200,7 @@ export default function AdmissionPage() {
         {/* Scholarship and Fee Support Section */}
 <section className="mt-16">
   <div className="flex items-center gap-2 mb-6">
-    <Trophy className="h-6 w-6 text-[#FF4B4B]" />
+    <Trophy className="h-6 w-6 text-[#4bffe1]" />
     <h2 className="text-2xl font-bold text-white">Scholarship and Fee Support</h2>
   </div>
   <Card className="bg-white/5 backdrop-blur-lg border border-white/10 overflow-x-auto">

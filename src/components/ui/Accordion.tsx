@@ -19,9 +19,9 @@ export default function Accordion({ question, answer, iconOpen: IconOpen, iconCl
       >
         <span className="text-lg font-semibold text-white">{question}</span>
         {isOpen ? (
-          <IconOpen className="h-5 w-5 text-[#FF4B4B]" />
+          <IconOpen className="h-5 w-5 text-[#4bffcf]" />
         ) : (
-          <IconClosed className="h-5 w-5 text-[#FF4B4B]" />
+          <IconClosed className="h-5 w-5 text-[#4bffcf]" />
         )}
       </button>
       {isOpen && (

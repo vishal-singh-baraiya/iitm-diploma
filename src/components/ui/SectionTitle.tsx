@@ -34,7 +34,7 @@ export default function SectionTitle({ title, subtitle, description }: SectionTi
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
         {title}
       </h2>
-      <p className="mt-2 text-xl sm:text-2xl font-semibold text-[#FF4B4B]">
+      <p className="mt-2 text-xl sm:text-2xl font-semibold text-[#4bffcf]">
         {subtitle}
       </p>
       <p className="mt-4 text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto">

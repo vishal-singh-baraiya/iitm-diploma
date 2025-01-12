@@ -8,11 +8,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
           <div>
             <div className="flex items-center">
-              <GraduationCap className="h-8 w-8 text-[#FF4B4B]" />
-              <span className="ml-2 text-xl font-bold text-white">IITM BS Data Science</span>
+              <GraduationCap className="h-8 w-8 text-[#4bffd5]" />
+              <span className="ml-2 text-xl font-bold text-white">Diploma Data Science and Programming</span>
             </div>
             <p className="mt-4 text-gray-300">
-              Transform your future with India's first online BS degree in Data Science and Applications.
+              Transform your future with online Diploma in Data Science and Programming.
             </p>
           </div>
           <div>
@@ -58,6 +58,7 @@ export default function Footer() {
           <p className="text-center text-gray-300">
             © {new Date().getFullYear()} IIT Madras. All rights reserved.
           </p>
+          <p className="text-center text-gray-300">Website Made by Vishal Singh Baraiya</p>
         </div>
       </div>
     </footer>

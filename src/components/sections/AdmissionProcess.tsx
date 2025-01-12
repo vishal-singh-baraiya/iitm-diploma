@@ -18,12 +18,7 @@ const steps = [
     description: 'Take our qualifier test to demonstrate your aptitude for the program',
     color: '#FF8F00'
   },
-  {
-    icon: GraduationCap,
-    title: 'JEE Entry',
-    description: 'If You Qualified for the JEE Advanced examination you can directly apply for the admission',
-    color: '#FFD600'
-  },
+  
   {
     icon: Trophy,
     title: 'Admission',
@@ -39,10 +34,10 @@ export default function AdmissionProcess() {
         <SectionTitle
           title="Admission Process"
           subtitle="Your Journey Begins Here"
-          description="Simple 4-step process to join India's premier online BS program"
+          description="Simple 3-step process to join India's premier online Diploma in Data Science and Programming"
         />
         <div className="mt-20">
-          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-7 md:grid-cols-3 lg:grid-cols-3">
             {steps.map((step, index) => (
               <ProcessStep key={index} {...step} number={index + 1} />
             ))}

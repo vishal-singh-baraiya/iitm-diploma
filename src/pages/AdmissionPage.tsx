@@ -3,10 +3,11 @@ import Card from '../components/ui/Card';
 import { Calendar, GraduationCap, BookOpen } from 'lucide-react';
 
 const eligibilityCriteria = [
-  'Completed Class XII or equivalent with Mathematics as a subject',
-  'Minimum 60% aggregate marks in Class XII',
-  'Mathematics and English as compulsory subjects in Class X',
-  'No age limit for admission'
+  'Completed any UG degree through any mode or completed at least two years of any UG degree through any mode',
+  'Access to good internet connection as well as a laptop/desktop.',
+  'Learner should be able to travel to assigned exam centres for quizzes and exams each term.',
+  'Mathematics and English as compulsory subjects in Class X.',
+  'No age limit for admission.'
 ];
 
 const entranceExamSyllabus = [
@@ -85,15 +86,15 @@ const importantDates = [
 const applicationProcess = [
   {
     category: 'General Category / OBC Applicant',
-    fee: '₹3000'
+    fee: '₹6000'
   },
   {
     category: 'SC / ST Category / PwD (>= 40% disability)',
-    fee: '₹1500'
+    fee: '₹3000'
   },
   {
     category: 'SC / ST Category Applicant who is ALSO PwD (>= 40% disability)',
-    fee: '₹750'
+    fee: '₹1500'
   }
 ];
 
@@ -121,14 +122,14 @@ export default function AdmissionPage() {
         {/* Eligibility Criteria */}
         <section className="mt-16">
           <div className="flex items-center gap-2 mb-6">
-            <GraduationCap className="h-6 w-6 text-[#FF4B4B]" />
+            <GraduationCap className="h-6 w-6 text-[#4bffcf]" />
             <h2 className="text-2xl font-bold text-white">Eligibility Criteria</h2>
           </div>
           <Card className="bg-white/5 backdrop-blur-lg border border-white/10">
             <ul className="space-y-3">
               {eligibilityCriteria.map((criteria, index) => (
                 <li key={index} className="flex items-center gap-2 text-gray-300">
-                  <div className="h-1.5 w-1.5 rounded-full bg-[#FF4B4B]" />
+                  <div className="h-1.5 w-1.5 rounded-full bg-[#4bffcf]" />
                   {criteria}
                 </li>
               ))}
@@ -186,7 +187,7 @@ export default function AdmissionPage() {
               {importantDates.map((item, index) => (
                 <div key={index} className="flex justify-between items-center py-2 border-b border-white/10 last:border-0">
                   <span className="text-gray-300">{item.event}</span>
-                  <span className="text-[#FF4B4B] font-semibold">{item.date}</span>
+                  <span className="text-[#4bffcf] font-semibold">{item.date}</span>
                 </div>
               ))}
             </div>
@@ -203,14 +204,14 @@ export default function AdmissionPage() {
               {applicationProcess.map((item, index) => (
                 <div key={index} className="flex justify-between items-center py-2 border-b border-white/10 last:border-0">
                   <span className="text-gray-300">{item.category}</span>
-                  <span className="text-[#FF4B4B] font-semibold">{item.fee}</span>
+                  <span className="text-[#4bffcf] font-semibold">{item.fee}</span>
                 </div>
               ))}
             </div>
           </Card>
         </section>
 
-        {/* Re-Attempt Fees */}
+        {/* Re-Attempt Fees
         <section className="mt-16">
           <div className="flex items-center gap-2 mb-6">
             <h2 className="text-2xl font-bold text-white">Re-Attempt Fee</h2>
@@ -225,7 +226,7 @@ export default function AdmissionPage() {
               ))}
             </div>
           </Card>
-        </section>
+        </section> */}
 
       </div>
     </div>

@@ -12,7 +12,7 @@ export default function ContactForm() {
           <input
             type="text"
             id="name"
-            className="mt-1 block w-full rounded-lg bg-white/5 border border-white/10 text-white px-4 py-2 focus:ring-2 focus:ring-[#FF4B4B] focus:border-transparent"
+            className="mt-1 block w-full rounded-lg bg-white/5 border border-white/10 text-white px-4 py-2 focus:ring-2 focus:ring-[#4bffcf] focus:border-transparent"
             required
           />
         </div>
@@ -23,7 +23,7 @@ export default function ContactForm() {
           <input
             type="email"
             id="email"
-            className="mt-1 block w-full rounded-lg bg-white/5 border border-white/10 text-white px-4 py-2 focus:ring-2 focus:ring-[#FF4B4B] focus:border-transparent"
+            className="mt-1 block w-full rounded-lg bg-white/5 border border-white/10 text-white px-4 py-2 focus:ring-2 focus:ring-[#4bffcf] focus:border-transparent"
             required
           />
         </div>
@@ -35,7 +35,7 @@ export default function ContactForm() {
         <input
           type="text"
           id="subject"
-          className="mt-1 block w-full rounded-lg bg-white/5 border border-white/10 text-white px-4 py-2 focus:ring-2 focus:ring-[#FF4B4B] focus:border-transparent"
+          className="mt-1 block w-full rounded-lg bg-white/5 border border-white/10 text-white px-4 py-2 focus:ring-2 focus:ring-[#4bffcf] focus:border-transparent"
           required
         />
       </div>
@@ -46,7 +46,7 @@ export default function ContactForm() {
         <textarea
           id="message"
           rows={4}
-          className="mt-1 block w-full rounded-lg bg-white/5 border border-white/10 text-white px-4 py-2 focus:ring-2 focus:ring-[#FF4B4B] focus:border-transparent"
+          className="mt-1 block w-full rounded-lg bg-white/5 border border-white/10 text-white px-4 py-2 focus:ring-2 focus:ring-[#4bffcf] focus:border-transparent"
           required
         />
       </div>

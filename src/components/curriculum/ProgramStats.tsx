@@ -5,13 +5,13 @@ import Card from '../ui/Card';
 const stats = [
   {
     icon: Clock,
-    value: '4-8 Years',
+    value: '1-2 Years',
     label: 'Duration',
     color: '#FF4B4B'
   },
   {
     icon: BookOpen,
-    value: '70+ Courses',
+    value: '15+ Courses',
     label: 'Total Courses',
     color: '#FF8F00'
   },

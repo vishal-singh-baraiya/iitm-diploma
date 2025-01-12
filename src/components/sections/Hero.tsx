@@ -66,13 +66,13 @@ export default function Hero() {
               variants={itemVariants}
               className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight"
             >
-              BS in <span className="text-[#FF4B4B]">Data Science</span> and Applications
+              Diploma in <span className="text-[#4bffde]">Data Science</span> and Programming
             </motion.h1>
             <motion.p
               variants={itemVariants}
               className="mt-4 sm:mt-6 text-lg sm:text-xl text-gray-300"
             >
-              Join India's most innovative Non-Campus BS Degree and shape the future with data
+              Join India's most innovative Non-Campus Diploma in Data Science and Programming and shape the future with data and code.
             </motion.p>
 
             {/* Image section for mobile */}

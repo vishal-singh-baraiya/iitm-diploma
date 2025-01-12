@@ -11,16 +11,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center">
-            <span className="ml-2 text-xl font-bold text-white">IITM BS Data Science</span>
+            <span className="ml-2 text-xl font-bold text-white">IITM Diploma</span>
           </Link>
           <div className="hidden lg:flex items-center space-x-8">
-            <Link to="/" className="text-gray-300 hover:text-[#FF4B4B] transition">Home</Link>
-            <Link to="/about" className="text-gray-300 hover:text-[#FF4B4B] transition">About</Link>
-            <Link to="/curriculum" className="text-gray-300 hover:text-[#FF4B4B] transition">Academics</Link>
-            <Link to="/admission" className="text-gray-300 hover:text-[#FF4B4B] transition">Admission</Link>
-            <Link to="/placement" className="text-gray-300 hover:text-[#FF4B4B] transition">Placements</Link>
-            <Link to="/partnerships" className="text-gray-300 hover:text-[#FF4B4B] transition">Partnerships</Link>
-            <Link to="/contact" className="text-gray-300 hover:text-[#FF4B4B] transition">Contact</Link>
+            <Link to="/" className="text-gray-300 hover:text-[#4bffcf] transition">Home</Link>
+            <Link to="/about" className="text-gray-300 hover:text-[#4bffcf] transition">About IITM</Link>
+            <Link to="/curriculum" className="text-gray-300 hover:text-[#4bffcf] transition">Academics</Link>
+            <Link to="/admission" className="text-gray-300 hover:text-[#4bffcf] transition">Admission</Link>
+            <Link to="/placement" className="text-gray-300 hover:text-[#4bffcf] transition">Placements</Link>
+            <Link to="/partnerships" className="text-gray-300 hover:text-[#4bffcf] transition">Partnerships</Link>
+            <Link to="/contact" className="text-gray-300 hover:text-[#4bffcf] transition">Contact</Link>
             <DashboardButton />
           </div>
           <button 
