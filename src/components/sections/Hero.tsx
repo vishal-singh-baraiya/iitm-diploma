@@ -28,12 +28,15 @@ const itemVariants = {
 };
 
 export default function Hero() {
+  
+  
   // Image URLs array
   const studentImages = [
-    'https://media.licdn.com/dms/image/v2/D5622AQH7c2PNWSjplA/feedshare-shrink_1280/feedshare-shrink_1280/0/1733466759300?e=1738195200&v=beta&t=8QupcJyo68Uimzs8nOWLGNEx6uRJ7qLac9-3ntHGWfQ',
-    'https://media.licdn.com/dms/image/v2/D5622AQGYgUUR-u74bg/feedshare-shrink_1280/B56ZQBsrOYHQAo-/0/1735195279011?e=1738195200&v=beta&t=yaoxQQ3GYXNp8SEe152XWvaex2NG48GCHE9-5IZHmTg',
-    'https://media.licdn.com/dms/image/v2/D5622AQGuwTx1t5_8yA/feedshare-shrink_1280/B56ZPepUiuG8Ak-/0/1734607196386?e=1738195200&v=beta&t=Vta5lRITWb-mbgpddHJGyTGVb4T00fMk-Cl232u0L7c',
-    'https://media.licdn.com/dms/image/v2/D5622AQHwg0D0ML68WQ/feedshare-shrink_800/B56ZP3CoxxGQAg-/0/1735016734783?e=1738195200&v=beta&t=xTHh96fq7HwS85f4qZhyYI8gYjiIvApRmCKudZvHjy4',
+    'https://media.licdn.com/dms/image/v2/D5622AQHMBLfcCVj5iA/feedshare-shrink_800/B56ZTat9.pHoAk-/0/1738836273273?e=1741824000&v=beta&t=7HuZsjayTayEdPyOk8WnVyOvh9939asxZyTbLGM8FQY',
+    'https://media.licdn.com/dms/image/v2/D5622AQHfJ5EdwbhEdA/feedshare-shrink_800/B56ZTQwBfbHsAk-/0/1738669040719?e=1741824000&v=beta&t=iaHc_8P1akkWOt_ZkyHTEsX9R6dmbWMR3jbJ5d1wbJU',
+    'https://media.licdn.com/dms/image/v2/D5622AQEanUiHkCKSiw/feedshare-shrink_800/B56ZS6o0j9GUAg-/0/1738298055469?e=1741824000&v=beta&t=FoyTkmZ54A-w81ylxRKHKnRAifX5BacNCYw_cTCUpm0',
+    'https://media.licdn.com/dms/image/v2/D5622AQEV7ARzUUkEGg/feedshare-shrink_1280/B56ZREOWcEHoAk-/0/1736311410259?e=1741824000&v=beta&t=p3eAW_mMGUgSm56-Ao37h_95gGMxyzCsBle2XUMZ4Xs',
+    'https://media.licdn.com/dms/image/v2/D5622AQGWGvxnRy8lrQ/feedshare-shrink_1280/B56ZPepUjYG4Ao-/0/1734607198043?e=1741824000&v=beta&t=9vXTr83L1VnwxQDMJP6vJkE_P_CuE-nOyeYh222RXj0',
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
